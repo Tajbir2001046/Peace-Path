@@ -1,0 +1,163 @@
+/* General Container */
+.login-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Left Section: Form */
+  .login-form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .login-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .or-divider span {
+    font-size: 14px;
+    color: #888;
+    margin: 0 10px;
+  }
+  
+  .or-divider:before,
+  .or-divider:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+  }
+  
+  .social-login {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-login button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .google-button {
+    background-color: #db4437;
+    color: #fff;
+  }
+  
+  .facebook-button {
+    background-color: #4267b2;
+    color: #fff;
+  }
+  
+  .signup-text {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Section: Quote */
+  .login-quote-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .login-quote-container blockquote {
+    max-width: 400px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .login-quote-container blockquote p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .login-quote-container blockquote strong {
+    color: #007bff;
+  }
+  
+  .login-quote-container blockquote footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
